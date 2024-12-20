@@ -1,26 +1,15 @@
 
-# How to Setup LANGGRAPH Studio
+# How to trace LangGraph
 
-1. Install LangGraph CLI
-
-    ```console
-    pip install -U "langgraph-cli[inmem]" langsmith openai
-    ```
-
-2. Create a LangGraph APP
+1. Go to https://smith.langchain.com/
+2. Sign in and generate an API key
+3. Install dependencies
 
     ```console
-    mkdir langgraph-server && cd langgraph-server
-    langgraph new ./ --template react-agent-python
+    pip install -U langchain langchain-openai
     ```
 
-3. Install Dependencies
-
-    ```console
-    pip install -e .
-    ```
-
-4. Create a `.env` file and put your keys there.
+4. Add the keys to your project's `.env` file
 
     ```console
     LANGSMITH_API_KEY=<your-api-key>
@@ -29,10 +18,3 @@
     OPENAI_API_KEY=<your-openai-api-key>
     ```
 
-5. Launch the server
-
-    ```console
-    langgraph dev
-    ```
-
-Alternatively, you can just view the documentation [here](https://docs.smith.langchain.com/) and [here](https://langchain-ai.github.io/langgraph/tutorials/langgraph-platform/local-server/).
