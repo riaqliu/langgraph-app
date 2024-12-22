@@ -3,7 +3,7 @@
 Copy and run the following line on your terminal
 
 ```console
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## How to trace LangGraph
