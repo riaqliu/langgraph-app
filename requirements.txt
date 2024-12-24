@@ -4,3 +4,4 @@ langchain_core
 langchain_community
 tavily-python
 langgraph
+langgraph-checkpoint-sqlite
