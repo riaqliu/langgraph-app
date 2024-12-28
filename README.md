@@ -1,3 +1,6 @@
+This repository follows the **Introduction to Langgraph** course at https://academy.langchain.com/courses/intro-to-langgraph
+
+
 # Langchain dependencies
 
 Copy and run the following line on your terminal
@@ -6,7 +9,7 @@ Copy and run the following line on your terminal
 pip install -r requirements.txt
 ```
 
-## How to trace LangGraph
+## How to trace using Langsmith
 
 1. Go to https://smith.langchain.com/
 2. Sign in and generate an API key.
@@ -16,6 +19,5 @@ pip install -r requirements.txt
     LANGSMITH_API_KEY=<your-api-key>
     LANGCHAIN_TRACING_V2=true
     LANGCHAIN_PROJECT=<project-name>
-    OPENAI_API_KEY=<your-openai-api-key>
     ```
 4. Check your app through their dashboard.
